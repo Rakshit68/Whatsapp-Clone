@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${FlutterWhatsappClone}"
         android:label="flutterwhatsapp"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -24,6 +24,8 @@
             <meta-data
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
+              android:name="flutterEmbedding"
+              android:value="2"
               />
             <!-- Displays an Android View that continues showing the launch screen
                  Drawable until Flutter paints its first frame, then this splash
